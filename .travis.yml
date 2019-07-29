@@ -20,7 +20,7 @@ script:
   - ./gradlew assembleRelease
   - git tag v1.0
 deploy:
-  # 部署到GitHub Release。
+  # 部署到GitHub Release目录。
   # 除此之外，Travis CI还支持发布到fir.im、AWS、Google App Engine等
   provider: releases
   # Github oauth token
